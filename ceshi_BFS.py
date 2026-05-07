@@ -39,5 +39,3 @@ def Process(db, input):
 
     # 5. 返回结果（TuGraph 插件标准格式：成功标志, 结果字符串）
     return (True, str(bfs_order))
-
-
